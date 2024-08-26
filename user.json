@@ -1,0 +1,47 @@
+{
+  "status": "success",
+  "data": {
+    "user": {
+      "id": 12345,
+      "username": "john_doe",
+      "email": "john.doe@example.com",
+      "full_name": "John Doe",
+      "created_at": "2023-08-25T14:48:00.000Z",
+      "last_login": "2024-08-25T10:22:13.000Z",
+      "profile": {
+        "age": 29,
+        "gender": "male",
+        "location": "New York, USA",
+        "avatar_url": "https://example.com/avatars/johndoe.jpg",
+        "bio": "Software developer with a passion for technology and music."
+      },
+      "preferences": {
+        "newsletter": true,
+        "language": "en",
+        "dark_mode": false,
+        "notifications": {}
+      },
+      "recent_activity": [
+        {
+          "activity_id": 987654,
+          "type": "login",
+          "timestamp": "2024-08-25T10:22:13.000Z",
+          "ip_address": "192.168.1.15",
+          "location": "New York, USA"
+        },
+        {
+          "activity_id": 987653,
+          "type": "purchase",
+          "timestamp": "2024-08-22T16:14:10.000Z"
+        },
+        {
+          "activity_id": 987652,
+          "type": "comment",
+          "timestamp": "2024-08-20T09:30:45.000Z",
+          "post_id": 54321,
+          "comment": "Great article on modern tech trends!"
+        }
+      ]
+    }
+  }
+}
