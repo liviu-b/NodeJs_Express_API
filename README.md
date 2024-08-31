@@ -1,7 +1,5 @@
 Here’s a simple `README.md` template for a Node.js + Express API project. You can customize it according to your project specifics.
 
----
-
 # Node.js Express API
 
 A simple RESTful API built with Node.js and Express.js.
